@@ -1,0 +1,50 @@
+#slider{
+	float:left;
+	max-width:50%;
+	height:auto;
+	overflow:hidden;
+}
+#konyvadatok{
+	position:absolute;
+	width:auto;
+	min-width:44%;
+	right:6em;
+}
+#vasarlas{
+	display:block;
+    overflow:hidden;
+	position:relative;
+	padding-top:20px;
+	top:470px;
+	left:300px;
+	width:300px;
+	padding-right:0;
+}
+#konyvleiras{
+	display:inline-block;
+	margin-top:100px;
+	min-width:100%;
+}
+
+@media only screen and (max-width: 970px){
+	#konyvadatok{
+		position:static;
+		padding-left:10px;
+	}
+	#slider{
+		margin:0 auto;
+		display:table;
+		overflow:auto;
+		padding-bottom:10px;
+		width:100%;
+		max-width:none;
+	}
+	#vasarlas{
+		top:0px;
+		left:50%;
+	}
+	
+}
+.bx-wrapper img{
+	margin: 0 auto;
+}
